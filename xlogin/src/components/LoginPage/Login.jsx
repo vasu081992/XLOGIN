@@ -49,7 +49,7 @@ setflag(true)
             <p>Invalid username or password</p>
          )
         }
-    { !flag && (
+    { !flag ? (
         <form onSubmit={handleSubmit}>
       
       <div> 
@@ -64,14 +64,13 @@ setflag(true)
         </div>
     
         </form>
+    ) : 
+    (
+        <div>Welcome, user</div>
+
     )
 }
-{flag && (
- 
- <p>Welcome, user</p>
-
-)}
-        </div>
+  </div>      
 )
 }
 
