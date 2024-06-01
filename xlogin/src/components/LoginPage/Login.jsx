@@ -18,7 +18,7 @@ function Login() {
     return
   }
 
-  if(username==="username" && password==="password"){
+  if(username==="user" && password==="password"){
 setflag(true)
   }
   else{
