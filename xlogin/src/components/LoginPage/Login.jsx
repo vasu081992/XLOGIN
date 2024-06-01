@@ -54,10 +54,10 @@ setflag(true)
       
       <div> 
         
-        <label>Username:</label>
+        <label>Username</label>
        <input  type="text" placeholder="username" value={username}onChange={handleUsername} required></input>
        </div>
-       <label>Password:</label>
+       <label>Password</label>
        <input  type="password" placeholder="password" value={password} onChange={handlePassword} required></input>
        <div> 
          <button type="submit">Submit</button>
@@ -68,7 +68,7 @@ setflag(true)
 }
 {flag && (
  
- <p>Welcome,user!</p>
+ <p>Welcome, user</p>
 
 )}
         </div>
