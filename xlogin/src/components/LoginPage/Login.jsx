@@ -46,7 +46,7 @@ setflag(true)
         {
 
          errormessage && (
-            <h6>Invalid username or password</h6>
+            <p>Invalid username or password</p>
          )
         }
     { !flag && (
@@ -68,7 +68,7 @@ setflag(true)
 }
 {flag && (
  
- <h6>Welcome,user!</h6>
+ <p>Welcome,user!</p>
 
 )}
         </div>
